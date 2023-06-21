@@ -14,20 +14,31 @@ git clone https://github.com/ManjunathNaidugari/The-winner-takes-it-all.git
 - Set up a Java IDE such as Eclipse, IntelliJ IDEA, or any other preferred IDE.
 - Import the cloned repository into your IDE as a Java project.
 
-#### 3. Explore the Source Code:
+#### 3. Build with Gradle:
+- The project is now Gradle-enabled for easier dependency management and build process.
+- Open a terminal or command prompt and navigate to the project's root directory.
+- Run the following command to build the project and resolve dependencies:
+  ```shell
+  ./gradlew build
+  ```
+
+#### 4. Explore the Source Code:
 - The source code is organized into different packages, each representing a specific aspect of the game.
 - Navigate through the packages and classes to understand the implementation details.
-- Refer to the comments in the code for additional information about the game logic.
+- Refer to the comments in the code for additional information about the game logic and functionalities.
 
-#### 4. Build and Run the Game:
-- Build the project in your IDE to ensure all dependencies are resolved.
-- Run the main application or any specific classes to start playing the game.
-
-#### 5. Play the Game:
+#### 5. Run the Game:
+- Execute the main application or any specific classes to start the game.
+- Use your IDE's run configurations or run the following command in the terminal:
+  ```shell
+  ./gradlew run
+  ```
+  
+#### 6. Play the Game:
 - Follow the instructions provided in the game to play and compete against other players.
 - Enjoy the exciting gameplay and aim to become the ultimate winner!
 
-#### 6. Modify and Extend:
+#### 7. Modify and Extend:
 - Feel free to modify the code to customize the game or add new features.
 - Add new classes, methods, or functionalities as needed to enhance the gameplay.
 
